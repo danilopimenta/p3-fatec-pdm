@@ -16,13 +16,14 @@ app.get('/weather', async (req, res) => {
     try {
         const appid = OPEN_WEATHER_MAP_KEY
         const endpoint = '/weather'
-        const params = { params: {lat, lon, appid} }
+        const units = 'metric'
+        const params = {params: {lat, lon, appid, units}}
         const result = await openWeatherMapClient.get(endpoint, params)
         res.json(result.data)
     } catch (err) {
         console.log(err)
         res.status(400)
-        res.json({ error: err, msg: "erro no backend" })
+        res.json({error: err, msg: "erro no backend"})
     }
 })
 
