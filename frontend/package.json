@@ -1,0 +1,11 @@
+{
+  "name": "p3-clima",
+  "version": "0.0.1",
+  "description": "backend and frontend, to search weather for specific location",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Danilo Pimenta <danilopi@outlook.com>",
+  "license": "ISC"
+}

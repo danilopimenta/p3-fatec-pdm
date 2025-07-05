@@ -1,0 +1,45 @@
+{
+  "coord": {
+    "lon": -43.2192,
+    "lat": -22.8305
+  },
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "broken clouds",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 292.14,
+    "feels_like": 292.03,
+    "temp_min": 291.32,
+    "temp_max": 292.2,
+    "pressure": 1027,
+    "humidity": 74,
+    "sea_level": 1027,
+    "grnd_level": 1032
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 3.6,
+    "deg": 150
+  },
+  "clouds": {
+    "all": 75
+  },
+  "dt": 1751672549,
+  "sys": {
+    "type": 2,
+    "id": 2098644,
+    "country": "BR",
+    "sunrise": 1751621643,
+    "sunset": 1751660414
+  },
+  "timezone": -10800,
+  "id": 7538753,
+  "name": "Vila Joaniza",
+  "cod": 200
+}
