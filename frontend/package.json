@@ -1,11 +1,14 @@
 {
-  "name": "p3-clima",
-  "version": "0.0.1",
-  "description": "backend and frontend, to search weather for specific location",
-  "main": "index.js",
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "author": "Danilo Pimenta <danilopi@outlook.com>",
-  "license": "ISC"
+  "devDependencies": {
+    "vite": "^7.0.0"
+  }
 }
